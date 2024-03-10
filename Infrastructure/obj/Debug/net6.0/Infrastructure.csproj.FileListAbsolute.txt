@@ -15,3 +15,4 @@ E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastruc
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
 E:\Core Projects\New folder\FreeBooks\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
+E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.sourcelink.json

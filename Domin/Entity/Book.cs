@@ -29,7 +29,8 @@ namespace Domin.Entity
         public Category Category { get; set; }
 
         public Guid SubCategoryId { get; set; }
-        [ForeignKey(nameof(SubCategoryId))]
+
+        [ForeignKey("SubCategoryId")]
         public SubCategorry SubCategorry { get; set; }
 
         public int CurrentStaut { get; set; }

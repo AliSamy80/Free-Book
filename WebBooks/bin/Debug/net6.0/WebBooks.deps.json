@@ -2524,6 +2524,9 @@
         }
       },
       "Domin/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.27"
+        },
         "runtime": {
           "Domin.dll": {}
         }
@@ -2531,6 +2534,7 @@
       "Infrastructure/1.0.0": {
         "dependencies": {
           "Domin": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.27",
           "Microsoft.EntityFrameworkCore": "6.0.27",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.27",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.27"

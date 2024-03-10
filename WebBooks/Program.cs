@@ -1,4 +1,6 @@
 using Infrastructure.Data;
+using Domin.ViewModel;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,9 @@ var connectionString = builder.Configuration.GetConnectionString("BookConnection
 
 builder.Services.AddDbContext<FreeBookDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddIdentity<ApplicationUser,IdentityRole>()
+                .AddEntityFrameworkStores<FreeBookDbContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

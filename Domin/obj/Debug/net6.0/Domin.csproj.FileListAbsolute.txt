@@ -11,3 +11,5 @@ E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.pdb
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\ref\Domin.dll
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.Resources.ResourceData.resources
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.GenerateResource.cache
+E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.AssemblyReference.cache
+E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.sourcelink.json
