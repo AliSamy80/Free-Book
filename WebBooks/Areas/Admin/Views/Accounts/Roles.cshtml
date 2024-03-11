@@ -1,7 +1,74 @@
-﻿@model Infrastructure.ViewModel.RolesViewModel
+﻿@model RolesViewModel
 @{
     ViewData["Title"] = "Roles";
 }
 
-<h1>Roles</h1>
+<div class="wrapper">
+
+<!------Content-Header------>
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark"> @ResourceWeb.lbRoleUser</h1>
+                </div>
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-left">
+                        <li class="breadcrumb-item"><a href="/Admin/Home/Index">@ResourceWeb.LbHomePage</a></li>
+                        <li class="breadcrumb-item active">@ResourceWeb.LbManageBook</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Main content -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">@ResourceWeb.lbRoleUser</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <td>@ResourceWeb.LbNameRole</td>
+                                    <td>@ResourceWeb.LbEvents</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach(var item in Model.Roles){
+                                    <tr>
+                                        <td>
+                                            @switch(item.Name){
+                                                case "SuperAdmin":
+                                                    <span class="badge badge-danger" style="width:250px; height:25px">@item.Name</span>
+                                                    break;
+                                                case "Admin":
+                                                    <span class="badge badge-success" style="width:250px; height:25px">@item.Name</span>
+                                                    break;
+                                                default:
+                                                    <span class="badge badge-warning" style="width:250px; height:25px">@item.Name</span>
+                                                    break;
+                                            }
+                                        </td>
+                                        <td>
+                                            <input type="button" class="btn btn-info" value="@ResourceWeb.LbBtnEdit" />
+                                            <input type="button" class="btn btn-danger" value="@ResourceWeb.LbBtnDelete" />
+
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+</div>
 

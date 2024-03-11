@@ -258,3 +258,5 @@ E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.AspNet
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.sourcelink.json
+E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.Resources.ResourceWeb.resources
+E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.GenerateResource.cache
