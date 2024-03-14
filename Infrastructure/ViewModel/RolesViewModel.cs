@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
+using Domin.Resources;
 namespace Infrastructure.ViewModel
 {
     public class RolesViewModel
@@ -15,6 +16,7 @@ namespace Infrastructure.ViewModel
     public class NewRole
     {
         public string Id { get; set; }
+        [Required(ErrorMessageResourceType =typeof(ResourceData), ErrorMessageResourceName = "RoleName")]
         public string Name { get; set; }
     }
 }

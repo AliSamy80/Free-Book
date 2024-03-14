@@ -132,6 +132,9 @@
   <data name="MinLength" xml:space="preserve">
     <value>يجب ألا يقل عدد حروف الكلمة عن ثلاثةحرف</value>
   </data>
+  <data name="RoleName" xml:space="preserve">
+    <value>يجــب إدخــال اسم المجموعـــة</value>
+  </data>
   <data name="SubCategoryName" xml:space="preserve">
     <value>يجب إدخال اسم الفئة الفرعية</value>
   </data>

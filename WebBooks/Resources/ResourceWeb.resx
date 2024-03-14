@@ -123,6 +123,9 @@
   <data name="LbBtnEdit" xml:space="preserve">
     <value>تعديل</value>
   </data>
+  <data name="lbBtnSaveNewRole" xml:space="preserve">
+    <value>اضف مجموعة جديــدة</value>
+  </data>
   <data name="LbEvents" xml:space="preserve">
     <value>الأحــداث</value>
   </data>

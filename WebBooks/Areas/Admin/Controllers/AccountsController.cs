@@ -1,4 +1,6 @@
-﻿using Infrastructure.ViewModel;
+﻿using Infrastructure.Data;
+using Infrastructure.ViewModel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,6 +10,7 @@ namespace WebBooks.Areas.Admin.Controllers
     public class AccountsController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
+        
         public AccountsController(RoleManager<IdentityRole> roleManager)
         {
             _roleManager = roleManager;
@@ -42,10 +45,18 @@ namespace WebBooks.Areas.Admin.Controllers
                     if(result.Succeeded)
                     {
                         //succeeded
+                        HttpContext.Session.SetString("msgType","success");
+                        HttpContext.Session.SetString("title", "تـم الحفــظ");
+                        HttpContext.Session.SetString("msg", "تم حفظ مجموعة المستخــدم بنجــاح");
 
+                        return RedirectToAction("Roles");
                     }
                     else
                     {
+                        HttpContext.Session.SetString("msgType", "error");
+                        HttpContext.Session.SetString("title", "لـم يتم الحفــظ");
+                        HttpContext.Session.SetString("msg", "لـم يتم حفظ مجموعة المستخــدم بنجــاح");
+
                         // Not succeeded
                     }
                 }
@@ -55,7 +66,19 @@ namespace WebBooks.Areas.Admin.Controllers
 
                 }
             }
+            //return View(model);
             return View();
+
+        }
+
+        public async Task<IActionResult> DeleteRole(string Id)
+        {
+            var role = _roleManager.Roles.FirstOrDefault(x => x.Id == Id);
+            if((await _roleManager.DeleteAsync(role)).Succeeded)
+            {
+                return RedirectToAction(nameof(Roles));
+            }
+            return RedirectToAction("Roles");
         }
 
 

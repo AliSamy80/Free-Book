@@ -4,7 +4,6 @@
 }
 
 <div class="wrapper">
-
 <!------Content-Header------>
     <div class="content-header">
         <div class="container-fluid">
@@ -28,12 +27,18 @@
         <div class="row">
             <div class="col-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">@ResourceWeb.lbRoleUser</h3>
+                    <div class="card-header d-flex align-items-center justify-content-start">
+                        <h3 class="card-title" style="margin-left:20px">@ResourceWeb.lbRoleUser</h3>
+                        <div class="card-tools">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                @ResourceWeb.lbBtnSaveNewRole
+                            </button>
+                        </div>
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <table id="example2" class="table table-bordered table-hover">
+                        <table id="example2" class="table table-bordered table-hover text-center">
                             <thead>
                                 <tr>
                                     <td>@ResourceWeb.LbNameRole</td>
@@ -58,7 +63,7 @@
                                         </td>
                                         <td>
                                             <input type="button" class="btn btn-info" value="@ResourceWeb.LbBtnEdit" />
-                                            <input type="button" class="btn btn-danger" value="@ResourceWeb.LbBtnDelete" />
+                                            <input type="button" class="btn btn-danger" onclick="Delete('@item.Id')" value="@ResourceWeb.LbBtnDelete" />
 
                                         </td>
                                     </tr>
@@ -69,6 +74,63 @@
                     <!-- /.card-body -->
                 </div>
                 <!-- /.card -->
-
 </div>
 
+<!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">@ResourceWeb.lbBtnSaveNewRole</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form asp-action="Roles" asp-area="Admin" asp-controller="Accounts" method="post"> 
+                                <div class="form-group">
+                                    <label class="control-lable">@ResourceWeb.LbNameRole</label>
+                                    <input type="text" class="form-control" asp-for="NewRole.Name"/>
+                                    <span asp-validation-for="NewRole.Name" class="text-danger"></span>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <input type="submit" class="btn btn-success" value="@ResourceWeb.lbBtnSaveNewRole"/>
+                                    <button type="button" class="btn btn-secondary">Close</button>
+                                </div>
+                            </form>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+
+@section Scripts {
+     @if (!string.IsNullOrEmpty(Context.Session.GetString("MsgType")))
+     {
+         if (Context.Session.GetString("MsgType") == "success")
+         {
+            <script>
+               Swal.fire({
+                   position: "top-end",
+                   icon: "success",
+                   title: @Context.Session.GetString("title"),
+                   text: @Context.Session.GetString("msg"),
+                   confirmButtonText: 'حسنـــاً',
+               });
+            </script>
+         }
+         else
+         {
+            <script>
+               Swal.fire({
+                   icon: "error", 
+                   title: @Context.Session.GetString("title"),
+                   text: @Context.Session.GetString("msg"),
+                   confirmButtonText: 'حسنـــاً',
+                });
+            </script>
+         }
+         Context.Session.SetString("msgType", "");
+     }    
+     
+     <script src="~/Models/Roles.js"></script>
+}

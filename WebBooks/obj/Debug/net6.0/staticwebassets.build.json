@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j69YeN+RVUXYHOyMPOt6arqiCyJL0NFpYlGzYTNWamM=",
+  "Hash": "CT/K2J+WbGHrCFZI5CiUgMCRDvelnKBr5cjtbu3+NsE=",
   "Source": "WebBooks",
   "BasePath": "_content/WebBooks",
   "Mode": "Default",
@@ -40238,6 +40238,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Models\\Roles.js",
+      "SourceId": "WebBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\",
+      "BasePath": "_content/WebBooks",
+      "RelativePath": "Models/Roles.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Models\\Roles.js"
     },
     {
       "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Web\\images\\author.jpg",
