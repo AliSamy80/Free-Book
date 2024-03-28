@@ -8,7 +8,6 @@ E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastruc
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfoInputs.cache
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.AssemblyInfo.cs
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CoreCompileInputs.cache
-E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComplete
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
@@ -16,3 +15,4 @@ E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\ref\Infras
 E:\Core Projects\New folder\FreeBooks\Infrastructure\bin\Debug\net6.0\Infrastructure.runtimeconfig.json
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.genruntimeconfig.cache
 E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastructure.sourcelink.json
+E:\Core Projects\New folder\FreeBooks\Infrastructure\obj\Debug\net6.0\Infrastr.15EFFBFE.Up2Date

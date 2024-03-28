@@ -10,7 +10,6 @@ namespace WebBooks.Areas.Admin.Controllers
     public class AccountsController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
-        
         public AccountsController(RoleManager<IdentityRole> roleManager)
         {
             _roleManager = roleManager;
@@ -24,8 +23,6 @@ namespace WebBooks.Areas.Admin.Controllers
                 Roles = _roleManager.Roles.OrderBy(x => x.Name).ToList()
             });
         }
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Roles(RolesViewModel model)
@@ -63,14 +60,29 @@ namespace WebBooks.Areas.Admin.Controllers
                 //Update
                 else
                 {
-
+                    var RoleUpdate = await _roleManager.FindByIdAsync(role.Id);
+                    RoleUpdate.Id = model.NewRole.Id;
+                    RoleUpdate.Name = model.NewRole.Name;
+                    var Result = await _roleManager.UpdateAsync(RoleUpdate);
+                    if (Result.Succeeded)
+                    {
+                        //succeeded
+                        HttpContext.Session.SetString("msgType", "success");
+                        HttpContext.Session.SetString("title", "تـم التعديــل");
+                        HttpContext.Session.SetString("msg", "تم تعديل مجموعة المستخــدم بنجــاح");
+                    }
+                    else
+                    {
+                        HttpContext.Session.SetString("msgType", "error");
+                        HttpContext.Session.SetString("title", "لـم يتم التعديل");
+                        HttpContext.Session.SetString("msg", "لـم يتم تعديل مجموعة المستخــدم بنجــاح");
+                    }
                 }
             }
             //return View(model);
             return View();
 
         }
-
         public async Task<IActionResult> DeleteRole(string Id)
         {
             var role = _roleManager.Roles.FirstOrDefault(x => x.Id == Id);
@@ -80,9 +92,12 @@ namespace WebBooks.Areas.Admin.Controllers
             }
             return RedirectToAction("Roles");
         }
-
-
         public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }

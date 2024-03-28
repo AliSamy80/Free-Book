@@ -226,7 +226,6 @@ E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Infrastructure.d
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Infrastructure.pdb
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Domin.pdb
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.AssemblyReference.cache
-E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.CopyComplete
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_Layoutadmin.cshtml.rz.scp.css
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -260,3 +259,4 @@ E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\Microsoft.Extens
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.sourcelink.json
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.Resources.ResourceWeb.resources
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.GenerateResource.cache
+E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.Up2Date

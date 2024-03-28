@@ -1,22 +1,40 @@
-﻿function Delete(id) {
+﻿//let table = new DataTable('#tableRole');
+//let table = new DataTable('#tableRole');
+$(document).ready(function () {
+    $('#tableRole').DataTable();
+});
+function Delete(id) {
     Swal.fire({
-        title: "هل انت متـأكد ؟",
-        text: "لن تتمكن من التراجع عن هذا !",
-        icon: "warning",
+        title: lbTitleMsgDelete,
+        text: lbTextMsgDelete,
+        icon: 'warning',
         showCancelButton: true,
-        confirmButtonColor: "#3085d6",
-        cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, delete it!"
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: lbconfirmButtonText,
+        cancelButtonText: lbcancelButtonText
     }).then((result) => {
         if (result.isConfirmed) {
-            window.location.href = `/Admin/Accounts/DeleteRole?Id=${id}`
-            Swal.fire({
-                title: "تم الحذف",
-                text: "تم حذف مجموعة المستخدم",
-                icon: "success"
-            });
+            window.location.href = `/Admin/Accounts/DeleteRole?Id=${id}`;
+            Swal.fire(
+                lbTitleDeletedOk,
+                lbMsgDeletedOkRole,
+                lbSuccess
+            )
         }
-    });
+    })
 }
 
-function Edit()
+Edit = (id, name) => {
+    document.getElementById("title").innerHTML = "تعديل مججموعة المستخدم";
+    document.getElementById("btnSave").value = "تعديل";
+    document.getElementById("roleId").value = id;
+    document.getElementById("roleName").value = name;
+}
+
+Rest = () => {
+    document.getElementById("title").innerHTML = "اضف مجموعة جديــدة";
+    document.getElementById("btnSave").value = "حفظ";
+    document.getElementById("roleId").value = "";
+    document.getElementById("roleName").value = "";
+}

@@ -79,6 +79,15 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to حفظ.
+        /// </summary>
+        public static string LbBtnSave {
+            get {
+                return ResourceManager.GetString("LbBtnSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to اضف مجموعة جديــدة.
         /// </summary>
         public static string lbBtnSaveNewRole {
