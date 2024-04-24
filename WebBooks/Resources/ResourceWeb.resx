@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbActiveUser" xml:space="preserve">
+    <value>تفعيل المستخدم</value>
+  </data>
   <data name="LbBtnDelete" xml:space="preserve">
     <value>حذف</value>
   </data>
@@ -129,11 +132,23 @@
   <data name="lbBtnSaveNewRole" xml:space="preserve">
     <value>اضف مجموعة جديــدة</value>
   </data>
+  <data name="lbbtnSaveNewUser" xml:space="preserve">
+    <value>إضافة مستخدم جديد</value>
+  </data>
+  <data name="lbComparePassword" xml:space="preserve">
+    <value>أعد إدخال كلمة المرور</value>
+  </data>
+  <data name="lbEmailUser" xml:space="preserve">
+    <value>البريد الإلكترونى</value>
+  </data>
   <data name="LbEvents" xml:space="preserve">
     <value>الأحــداث</value>
   </data>
   <data name="LbHomePage" xml:space="preserve">
     <value>الصفحــة الرئيســية</value>
+  </data>
+  <data name="lbImageUser" xml:space="preserve">
+    <value>صورة المستخدم</value>
   </data>
   <data name="LbManageBook" xml:space="preserve">
     <value>إدارة الكــتب </value>
@@ -141,7 +156,61 @@
   <data name="LbNameRole" xml:space="preserve">
     <value>اســـم المجمــــوعة</value>
   </data>
+  <data name="lbNameUser" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="lbNotSaved" xml:space="preserve">
+    <value>لـم يتم الحفــظ</value>
+  </data>
+  <data name="lbNotSavedMsgRole" xml:space="preserve">
+    <value>لـم يتم حفظ مجموعة المستخــدم </value>
+  </data>
+  <data name="lbNotSavedMsgUser" xml:space="preserve">
+    <value>"لـم يتم حفظ المستخــدم</value>
+  </data>
+  <data name="lbNotSavedMsgUserRole" xml:space="preserve">
+    <value>لـم يتم حفظ  مجموعة المستخــدم</value>
+  </data>
+  <data name="lbNotUpdate" xml:space="preserve">
+    <value>لم يتم التعديل</value>
+  </data>
+  <data name="lbNotUpdateMsgRole" xml:space="preserve">
+    <value>لـم يتم تعديل مجموعة المستخــدم بنجــاح</value>
+  </data>
+  <data name="lbNotUpdateMsgUser" xml:space="preserve">
+    <value>لـم يتم تعديل المستخــدم</value>
+  </data>
+  <data name="lbNotUpdateMsgUserRole" xml:space="preserve">
+    <value>لـم يتم تعديل  مجموعة المستخــدم</value>
+  </data>
+  <data name="lbPassword" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
   <data name="lbRoleUser" xml:space="preserve">
     <value>مجموعة المستخدميــــن</value>
+  </data>
+  <data name="lbSave" xml:space="preserve">
+    <value>تـم الحفــظ</value>
+  </data>
+  <data name="lbSaveMsgRole" xml:space="preserve">
+    <value>تم حفظ مجموعة المستخــدم بنجــاح</value>
+  </data>
+  <data name="lbSaveMsgUser" xml:space="preserve">
+    <value>تم حفظ مستخــدم جديد بنجــاح</value>
+  </data>
+  <data name="lbSelectUserRole" xml:space="preserve">
+    <value>اختر مجموعة المستخدم</value>
+  </data>
+  <data name="lbUpdate" xml:space="preserve">
+    <value>تم التعديل</value>
+  </data>
+  <data name="lbUpdateMsgRole" xml:space="preserve">
+    <value>تم تعديل مجموعة المستخــدم بنجــاح</value>
+  </data>
+  <data name="lbUpdateMsgUser" xml:space="preserve">
+    <value>تم تعديل مستخــدم جديد بنجــاح</value>
+  </data>
+  <data name="lbUser" xml:space="preserve">
+    <value>المستخدميين الحاليين</value>
   </data>
 </root>

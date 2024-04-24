@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CT/K2J+WbGHrCFZI5CiUgMCRDvelnKBr5cjtbu3+NsE=",
+  "Hash": "nwAUDJBUX5s0BMTvV1Cm+Fpi48Y4ArHsifUrK56IjaA=",
   "Source": "WebBooks",
   "BasePath": "_content/WebBooks",
   "Mode": "Default",
@@ -40240,12 +40240,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Models\\Roles.js",
+      "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Register.js",
       "SourceId": "WebBooks",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\",
       "BasePath": "_content/WebBooks",
-      "RelativePath": "Models/Roles.js",
+      "RelativePath": "Modules/Register.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -40256,7 +40256,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Models\\Roles.js"
+      "OriginalItemSpec": "wwwroot\\Modules\\Register.js"
+    },
+    {
+      "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
+      "SourceId": "WebBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\",
+      "BasePath": "_content/WebBooks",
+      "RelativePath": "Modules/Roles.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Modules\\Roles.js"
     },
     {
       "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Web\\images\\author.jpg",

@@ -61,6 +61,15 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to تفعيل المستخدم.
+        /// </summary>
+        public static string lbActiveUser {
+            get {
+                return ResourceManager.GetString("lbActiveUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to حذف.
         /// </summary>
         public static string LbBtnDelete {
@@ -97,6 +106,33 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to إضافة مستخدم جديد.
+        /// </summary>
+        public static string lbbtnSaveNewUser {
+            get {
+                return ResourceManager.GetString("lbbtnSaveNewUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to أعد إدخال كلمة المرور.
+        /// </summary>
+        public static string lbComparePassword {
+            get {
+                return ResourceManager.GetString("lbComparePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to البريد الإلكترونى.
+        /// </summary>
+        public static string lbEmailUser {
+            get {
+                return ResourceManager.GetString("lbEmailUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to الأحــداث.
         /// </summary>
         public static string LbEvents {
@@ -111,6 +147,15 @@ namespace WebBooks.Resources {
         public static string LbHomePage {
             get {
                 return ResourceManager.GetString("LbHomePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to صورة المستخدم.
+        /// </summary>
+        public static string lbImageUser {
+            get {
+                return ResourceManager.GetString("lbImageUser", resourceCulture);
             }
         }
         
@@ -133,11 +178,173 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to اسم المستخدم.
+        /// </summary>
+        public static string lbNameUser {
+            get {
+                return ResourceManager.GetString("lbNameUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم الحفــظ.
+        /// </summary>
+        public static string lbNotSaved {
+            get {
+                return ResourceManager.GetString("lbNotSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم حفظ مجموعة المستخــدم .
+        /// </summary>
+        public static string lbNotSavedMsgRole {
+            get {
+                return ResourceManager.GetString("lbNotSavedMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;لـم يتم حفظ المستخــدم.
+        /// </summary>
+        public static string lbNotSavedMsgUser {
+            get {
+                return ResourceManager.GetString("lbNotSavedMsgUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم حفظ  مجموعة المستخــدم.
+        /// </summary>
+        public static string lbNotSavedMsgUserRole {
+            get {
+                return ResourceManager.GetString("lbNotSavedMsgUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لم يتم التعديل.
+        /// </summary>
+        public static string lbNotUpdate {
+            get {
+                return ResourceManager.GetString("lbNotUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم تعديل مجموعة المستخــدم بنجــاح.
+        /// </summary>
+        public static string lbNotUpdateMsgRole {
+            get {
+                return ResourceManager.GetString("lbNotUpdateMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم تعديل المستخــدم.
+        /// </summary>
+        public static string lbNotUpdateMsgUser {
+            get {
+                return ResourceManager.GetString("lbNotUpdateMsgUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لـم يتم تعديل  مجموعة المستخــدم.
+        /// </summary>
+        public static string lbNotUpdateMsgUserRole {
+            get {
+                return ResourceManager.GetString("lbNotUpdateMsgUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to كلمة المرور.
+        /// </summary>
+        public static string lbPassword {
+            get {
+                return ResourceManager.GetString("lbPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to مجموعة المستخدميــــن.
         /// </summary>
         public static string lbRoleUser {
             get {
                 return ResourceManager.GetString("lbRoleUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تـم الحفــظ.
+        /// </summary>
+        public static string lbSave {
+            get {
+                return ResourceManager.GetString("lbSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم حفظ مجموعة المستخــدم بنجــاح.
+        /// </summary>
+        public static string lbSaveMsgRole {
+            get {
+                return ResourceManager.GetString("lbSaveMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم حفظ مستخــدم جديد بنجــاح.
+        /// </summary>
+        public static string lbSaveMsgUser {
+            get {
+                return ResourceManager.GetString("lbSaveMsgUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to اختر مجموعة المستخدم.
+        /// </summary>
+        public static string lbSelectUserRole {
+            get {
+                return ResourceManager.GetString("lbSelectUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم التعديل.
+        /// </summary>
+        public static string lbUpdate {
+            get {
+                return ResourceManager.GetString("lbUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم تعديل مجموعة المستخــدم بنجــاح.
+        /// </summary>
+        public static string lbUpdateMsgRole {
+            get {
+                return ResourceManager.GetString("lbUpdateMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم تعديل مستخــدم جديد بنجــاح.
+        /// </summary>
+        public static string lbUpdateMsgUser {
+            get {
+                return ResourceManager.GetString("lbUpdateMsgUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to المستخدميين الحاليين.
+        /// </summary>
+        public static string lbUser {
+            get {
+                return ResourceManager.GetString("lbUser", resourceCulture);
             }
         }
     }

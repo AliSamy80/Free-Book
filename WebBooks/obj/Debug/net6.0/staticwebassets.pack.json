@@ -8225,8 +8225,12 @@
       "PackagePath": "staticwebassets\\Admin\\plugins\\toastr\\toastr.min.js"
     },
     {
-      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Models\\Roles.js",
-      "PackagePath": "staticwebassets\\Models\\Roles.js"
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Register.js",
+      "PackagePath": "staticwebassets\\Modules\\Register.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
+      "PackagePath": "staticwebassets\\Modules\\Roles.js"
     },
     {
       "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Web\\images\\author.jpg",
