@@ -43,6 +43,7 @@
                             <thead>
                                 <tr>
                                     <td>@ResourceWeb.lbNameUser</td>
+                                    <td>@ResourceWeb.LbNameRole</td>
                                     <td>@ResourceWeb.lbImageUser</td>
                                     <td>@ResourceWeb.lbEmailUser</td>
                                     <td>@ResourceWeb.lbActiveUser</td>
@@ -54,6 +55,22 @@
                                 @foreach(var user in Model.Users){
                                     <tr>
                                         <td>@user.Name</td>
+                                        <td>
+                                            @switch (@user.Role)
+                                            {
+                                            case "SuperAdmin":
+                                                    <span class="badge badge-danger" style="width:100px; height:25px">@user.Role</span>
+                                            break;
+                                            case "Admin":
+                                                    <span class="badge badge-success" style="width:100px; height:25px">@user.Role</span>
+                                            break;
+                                            default:
+                                                    <span class="badge badge-warning" style="width:100px; height:25px">@user.Role</span>
+                                            break;
+                                            }
+
+                                        </td>
+
                                         <td>
                                             <img src="@Helper.PathImageuser/@user.Image" class="img-bordered img-circle img-circle" style="width:50px; height:50px;" />
                                         </td>

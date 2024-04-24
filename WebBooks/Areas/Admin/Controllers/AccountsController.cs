@@ -12,10 +12,14 @@ namespace WebBooks.Areas.Admin.Controllers
     {
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<ApplicationUser> _userManager;
-        public AccountsController(RoleManager<IdentityRole> roleManager, UserManager<ApplicationUser> userManager)
+        private readonly FreeBookDbContext _context;
+
+        public AccountsController(RoleManager<IdentityRole> roleManager,
+            UserManager<ApplicationUser> userManager , FreeBookDbContext context)
         {
             _roleManager = roleManager;
             _userManager = userManager;
+            _context = context;
         }
 
         public IActionResult Roles()
@@ -106,8 +110,8 @@ namespace WebBooks.Areas.Admin.Controllers
             var model = new RegisterViewModel
             {
                 NewRegister = new NewRegister(),
-                Roles = _roleManager.Roles.OrderBy(x=>x.Name).ToList(),
-                Users = _userManager.Users.OrderBy(x=>x.Name).ToList()
+                Roles = _roleManager.Roles.OrderBy(x => x.Name).ToList(),
+                Users = _context.vwUsers.OrderBy(x => x.Role).ToList() //_userManager.Users.OrderBy(x=>x.Name).ToList() 
             };
             return View(model);
         }

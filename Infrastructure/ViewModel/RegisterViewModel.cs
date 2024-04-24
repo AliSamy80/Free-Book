@@ -1,4 +1,5 @@
-﻿using Domin.Resources;
+﻿using Domin.Entity;
+using Domin.Resources;
 using Domin.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -13,7 +14,9 @@ namespace Infrastructure.ViewModel
 {
     public class RegisterViewModel
     {
-        public List<ApplicationUser> Users { get; set; }
+        public List<VwUser> Users { get; set; }
+       // public List<ApplicationUser> Users { get; set; }
+
         public NewRegister NewRegister { get; set; }
         public List<IdentityRole> Roles { get; set; }
     }
