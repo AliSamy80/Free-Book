@@ -75,11 +75,17 @@
                                             <img src="@Helper.PathImageuser/@user.Image" class="img-bordered img-circle img-circle" style="width:50px; height:50px;" />
                                         </td>
                                         <td>@user.Email</td>
-                                        <td><><input type="checkbox" disabled  checked="@user.Active" style="width:35px; height:35px"/></></td>
+                                        <td><input type="checkbox" disabled  checked="@user.Active" style="width:35px; height:35px"/></td>
                                         <td>
-                                            <input type="button" class="btn btn-info btn-sm" onclick="Edit('@user.Id', '@user.Name', '@user.Image' , '@user.Email' ,'@user.Active' )" 
-                                             value="@ResourceWeb.LbBtnEdit" data-bs-toggle="modal" data-bs-target="#exampleModal" />|
-                                            <input type="button" class="btn btn-danger btn-sm" onclick="Delete('@user.Id')" value="@ResourceWeb.LbBtnDelete" />
+                                            <input type="button" class="btn btn-info btn-sm" 
+                                                   onclick="Edit('@user.Id', '@user.Name', '@user.Image', '@user.Email', '@user.Role', '@user.Active')" 
+                                                   value="@ResourceWeb.LbBtnEdit" data-bs-toggle="modal" data-bs-target="#exampleModal" />|
+                                            
+
+                                            <input type="button" class="btn btn-danger btn-sm" onclick="Delete('@user.Id')" value="@ResourceWeb.LbBtnDelete"/>
+
+                                            <input type="button" class="btn btn-success btn-sm" onclick="ChangePassword('@user.Id')"
+                                                   value="@ResourceWeb.LbBtnChangePassword" data-bs-toggle="modal" data-bs-target="#changePasswordModal"/>
                                         </td>
                                     </tr>
                                 }
@@ -99,7 +105,6 @@
 </div>
 
 
-
 <!-- Modal -->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -110,9 +115,12 @@
                 <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
             </div>
             <div class="modal-body">
-                <form asp-action="Register" asp-controller="Accounts" asp-area="Admin" method="post" enctype="multipart/form-data">
+                <form asp-action="Register" asp-controller="Accounts" asp-area="Admin" method="post" enctype="multipart/form-data" style="background-color: #f0f0f0;">
                     <div class="form-group">
+
                         <input type="text" hidden class="form-control" asp-for="NewRegister.Id" id="userId" />
+                        <input type="text" hidden class="form-control" asp-for="NewRegister.ImageUser" id="ImageHide"/>
+
                         <label asp-for="NewRegister.Name" class="control-lable">@ResourceWeb.lbNameUser</label>
                         <input type="text" class="form-control" asp-for="NewRegister.Name" id="userName" />
                         <span asp-validation-for="NewRegister.Name" class="text-danger"></span>
@@ -122,6 +130,10 @@
                         <label asp-for="NewRegister.Email" class="control-lable">@ResourceWeb.lbEmailUser</label>
                         <input type="text" class="form-control" asp-for="NewRegister.Email" id="userEmail" />
                         <span asp-validation-for="NewRegister.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group d-flex justify-content-center align-items-center">
+                        <img src="@Helper.PathImageuser/@Model.NewRegister.ImageUser" class="img-circle" style="width:100px; height:100px" hidden id="image" />
                     </div>
 
                     <div class="form-group">
@@ -151,14 +163,14 @@
                     </div>
 
 
-                    <div class="form-group">
+                    <div class="form-group" id="grPassword">
                         <label asp-for="NewRegister.Password" class="control-lable">@ResourceWeb.lbPassword</label>
                         <input type="password" class="form-control" asp-for="NewRegister.Password" id="userPassword" />
                         <span asp-validation-for="NewRegister.Password" class="text-danger"></span>
                     </div>
 
 
-                    <div class="form-group">
+                    <div class="form-group" id="grcomPassword">
                         <label asp-for="NewRegister.ComparePassword" class="control-lable">@ResourceWeb.lbComparePassword</label>
                         <input type="password" class="form-control" asp-for="NewRegister.ComparePassword" id="userComparePassword" />
                         <span asp-validation-for="NewRegister.ComparePassword" class="text-danger"></span>
@@ -175,17 +187,58 @@
         </div>
     </div>
 </div>
+
+
+<!-- Modal Change Password -->
+
+<div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog card card-success card-outline">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="title">@ResourceWeb.LbBtnChangePassword</h5>
+                <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+            </div>
+            <div class="modal-body">
+                <form asp-action="ChangePassword" asp-controller="Accounts" asp-area="Admin" method="post" enctype="multipart/form-data" style="background-color: #f0f0f0;">
+                    <div class="form-group">
+                        <input type="text" hidden class="form-control" asp-for="changePassword.Id" id="userPassId" />
+
+                        <label asp-for="changePassword.NewPassword" class="control-lable">@ResourceWeb.lbPassword</label>
+                        <input type="password" class="form-control" asp-for="changePassword.NewPassword" />
+                        <span asp-validation-for="changePassword.NewPassword" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="changePassword.ComparePassword" class="control-lable">@ResourceWeb.lbComparePassword</label>
+                        <input type="password" class="form-control" asp-for="changePassword.ComparePassword" />
+                        <span asp-validation-for="changePassword.ComparePassword" class="text-danger"></span>
+                    </div>
+
+                   
+
+                    <div class="modal-footer-rtl" style="padding:0 15px 15px 0">
+                        <input type="submit" class="btn btn-success" value="@ResourceWeb.LbBtnSave" id="btnSave" />
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
 @section Scripts {
-    @if (!string.IsNullOrEmpty(Context.Session.GetString("MsgType")))
+    @if (!string.IsNullOrEmpty(ViewContext.HttpContext.Session.GetString("MsgType")))
     {
-        if (Context.Session.GetString("MsgType") == "success")
+        if (ViewContext.HttpContext.Session.GetString("MsgType") == "success")
         {
             <script>
                 Swal.fire({
                     position: "top-end",
                     icon: "success",
-                    title: @Context.Session.GetString("title"),
-                    text: @Context.Session.GetString("msg"),
+                    title: "@ViewContext.HttpContext.Session.GetString("title")",
+                    text: "@ViewContext.HttpContext.Session.GetString("msg")",
                     confirmButtonText: 'حسنـــاً',
                 });
             </script>
@@ -195,16 +248,17 @@
             <script>
                 Swal.fire({
                     icon: "error",
-                    title: @Context.Session.GetString("title"),
-                    text: @Context.Session.GetString("msg"),
+                    title: "@ViewContext.HttpContext.Session.GetString("title")",
+                    text: "@ViewContext.HttpContext.Session.GetString("msg")",
                     confirmButtonText: 'حسنـــاً',
                 });
             </script>
         }
-        Context.Session.SetString("msgType", "");
+        ViewContext.HttpContext.Session.SetString("msgType", "");
     }
 
-    <script src="~/Modules/Register.js"></script>
-}
 
+    <script src="~/Modules/Register.js"></script>
+    <script src="~/modules/register.js"></script>
+}
 

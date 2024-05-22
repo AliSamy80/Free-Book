@@ -260,3 +260,4 @@ E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.sourcel
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.Resources.ResourceWeb.resources
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.GenerateResource.cache
 E:\Core Projects\New folder\FreeBooks\WebBooks\obj\Debug\net6.0\WebBooks.csproj.Up2Date
+E:\Core Projects\New folder\FreeBooks\WebBooks\bin\Debug\net6.0\libman.json

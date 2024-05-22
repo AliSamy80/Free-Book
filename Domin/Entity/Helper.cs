@@ -9,5 +9,7 @@ namespace Domin.Entity
     public class Helper
     {
         public const string PathImageuser = "/Images/Users";
+        public const string PathSaveImageuser = "Images/Users";
+
     }
 }

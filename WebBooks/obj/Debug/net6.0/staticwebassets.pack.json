@@ -8225,6 +8225,34 @@
       "PackagePath": "staticwebassets\\Admin\\plugins\\toastr\\toastr.min.js"
     },
     {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\04960469-ca7f-4a5a-9d04-e80d7a7e6d3e.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\04960469-ca7f-4a5a-9d04-e80d7a7e6d3e.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\2935696d-17ba-4ffd-b188-d999efd1db09.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\2935696d-17ba-4ffd-b188-d999efd1db09.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\4b174f99-24b5-4c21-9533-2e9c928f012a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\4b174f99-24b5-4c21-9533-2e9c928f012a.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\576d5931-34b1-4010-9d45-4812bef0c38a.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\576d5931-34b1-4010-9d45-4812bef0c38a.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\87300962-6913-486c-a529-b90017bcf381.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\87300962-6913-486c-a529-b90017bcf381.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\e59ce011-48f8-43bd-843f-459c17ec7f54.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\e59ce011-48f8-43bd-843f-459c17ec7f54.jpeg"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\e957a2b5-ba65-463e-a9a4-507d768cab6b.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Users\\e957a2b5-ba65-463e-a9a4-507d768cab6b.jpeg"
+    },
+    {
       "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Register.js",
       "PackagePath": "staticwebassets\\Modules\\Register.js"
     },
@@ -8681,6 +8709,26 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap-sweetalert\\sweetalert.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-sweetalert\\sweetalert.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap-sweetalert\\sweetalert.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-sweetalert\\sweetalert.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap-sweetalert\\sweetalert.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-sweetalert\\sweetalert.min.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap-sweetalert\\sweetalert.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-sweetalert\\sweetalert.min.css.map"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap-sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-sweetalert\\sweetalert.min.js"
+    },
+    {
       "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -8907,6 +8955,66 @@
     {
       "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\lib\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\lib\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.all.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.d.ts",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.d.ts"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.js",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.js"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\sweetalert2\\sweetalert2.min.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebBooks.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -15,10 +15,9 @@ namespace Infrastructure.ViewModel
     public class RegisterViewModel
     {
         public List<VwUser> Users { get; set; }
-       // public List<ApplicationUser> Users { get; set; }
-
         public NewRegister NewRegister { get; set; }
         public List<IdentityRole> Roles { get; set; }
+        public ChangePasswordViewModel changePassword { get; set; }
     }
     public class NewRegister
     {

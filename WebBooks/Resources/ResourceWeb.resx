@@ -120,6 +120,9 @@
   <data name="lbActiveUser" xml:space="preserve">
     <value>تفعيل المستخدم</value>
   </data>
+  <data name="LbBtnChangePassword" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
   <data name="LbBtnDelete" xml:space="preserve">
     <value>حذف</value>
   </data>
@@ -135,8 +138,14 @@
   <data name="lbbtnSaveNewUser" xml:space="preserve">
     <value>إضافة مستخدم جديد</value>
   </data>
+  <data name="lbcancelButtonText" xml:space="preserve">
+    <value>cancel !</value>
+  </data>
   <data name="lbComparePassword" xml:space="preserve">
     <value>أعد إدخال كلمة المرور</value>
+  </data>
+  <data name="lbconfirmButtonText" xml:space="preserve">
+    <value>yes, delete it !"</value>
   </data>
   <data name="lbEmailUser" xml:space="preserve">
     <value>البريد الإلكترونى</value>
@@ -152,6 +161,18 @@
   </data>
   <data name="LbManageBook" xml:space="preserve">
     <value>إدارة الكــتب </value>
+  </data>
+  <data name="lbMsgDeletedOkRole" xml:space="preserve">
+    <value>تم حذف مجموعة المستخـــدم !</value>
+  </data>
+  <data name="lbMsgErrorLogin" xml:space="preserve">
+    <value> البريد الإلكترونى أو كلمة المرور خطأ</value>
+  </data>
+  <data name="lbMsgNotSavedChangePassword" xml:space="preserve">
+    <value>لم يتم تغيير كلمة المرور</value>
+  </data>
+  <data name="lbMsgSavedChangePassword" xml:space="preserve">
+    <value>تم تغيير كلمة المرور بنجــاح</value>
   </data>
   <data name="LbNameRole" xml:space="preserve">
     <value>اســـم المجمــــوعة</value>
@@ -200,6 +221,18 @@
   </data>
   <data name="lbSelectUserRole" xml:space="preserve">
     <value>اختر مجموعة المستخدم</value>
+  </data>
+  <data name="lbSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="lbTextMsgDelete" xml:space="preserve">
+    <value>لن تتمكن من الرجوع في هذا !</value>
+  </data>
+  <data name="lbTitleDeletedOk" xml:space="preserve">
+    <value>تم الحذف</value>
+  </data>
+  <data name="lbTitleMsgDelete" xml:space="preserve">
+    <value>هل انت متـــأكد ؟</value>
   </data>
   <data name="lbUpdate" xml:space="preserve">
     <value>تم التعديل</value>

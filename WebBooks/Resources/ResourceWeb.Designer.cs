@@ -70,6 +70,15 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to تغيير كلمة المرور.
+        /// </summary>
+        public static string LbBtnChangePassword {
+            get {
+                return ResourceManager.GetString("LbBtnChangePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to حذف.
         /// </summary>
         public static string LbBtnDelete {
@@ -115,11 +124,29 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to cancel !.
+        /// </summary>
+        public static string lbcancelButtonText {
+            get {
+                return ResourceManager.GetString("lbcancelButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to أعد إدخال كلمة المرور.
         /// </summary>
         public static string lbComparePassword {
             get {
                 return ResourceManager.GetString("lbComparePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to yes, delete it !&quot;.
+        /// </summary>
+        public static string lbconfirmButtonText {
+            get {
+                return ResourceManager.GetString("lbconfirmButtonText", resourceCulture);
             }
         }
         
@@ -165,6 +192,42 @@ namespace WebBooks.Resources {
         public static string LbManageBook {
             get {
                 return ResourceManager.GetString("LbManageBook", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم حذف مجموعة المستخـــدم !.
+        /// </summary>
+        public static string lbMsgDeletedOkRole {
+            get {
+                return ResourceManager.GetString("lbMsgDeletedOkRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  البريد الإلكترونى أو كلمة المرور خطأ.
+        /// </summary>
+        public static string lbMsgErrorLogin {
+            get {
+                return ResourceManager.GetString("lbMsgErrorLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لم يتم تغيير كلمة المرور.
+        /// </summary>
+        public static string lbMsgNotSavedChangePassword {
+            get {
+                return ResourceManager.GetString("lbMsgNotSavedChangePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم تغيير كلمة المرور بنجــاح.
+        /// </summary>
+        public static string lbMsgSavedChangePassword {
+            get {
+                return ResourceManager.GetString("lbMsgSavedChangePassword", resourceCulture);
             }
         }
         
@@ -309,6 +372,42 @@ namespace WebBooks.Resources {
         public static string lbSelectUserRole {
             get {
                 return ResourceManager.GetString("lbSelectUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Success.
+        /// </summary>
+        public static string lbSuccess {
+            get {
+                return ResourceManager.GetString("lbSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لن تتمكن من الرجوع في هذا !.
+        /// </summary>
+        public static string lbTextMsgDelete {
+            get {
+                return ResourceManager.GetString("lbTextMsgDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تم الحذف.
+        /// </summary>
+        public static string lbTitleDeletedOk {
+            get {
+                return ResourceManager.GetString("lbTitleDeletedOk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to هل انت متـــأكد ؟.
+        /// </summary>
+        public static string lbTitleMsgDelete {
+            get {
+                return ResourceManager.GetString("lbTitleMsgDelete", resourceCulture);
             }
         }
         

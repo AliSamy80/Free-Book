@@ -2,6 +2,8 @@ using Infrastructure.Data;
 using Domin.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.CodeAnalysis;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,9 +14,29 @@ var connectionString = builder.Configuration.GetConnectionString("BookConnection
 builder.Services.AddDbContext<FreeBookDbContext>(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddIdentity<ApplicationUser,IdentityRole>()
-                .AddEntityFrameworkStores<FreeBookDbContext>();
+//builder.Services.AddIdentity<ApplicationUser,IdentityRole>()
+//                .AddEntityFrameworkStores<FreeBookDbContext>();
 
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredUniqueChars = 0;
+    options.Password.RequiredLength = 5;
+    options.Password.RequireNonAlphanumeric = false;
+}).AddEntityFrameworkStores<FreeBookDbContext>();
+
+
+//builder.Services.Configure<IdentityOptions>(options =>
+//{
+//    options.Password.RequireDigit = false;
+//    options.Password.RequireLowercase = false;
+//    options.Password.RequireUppercase = false;
+//    options.Password.RequiredUniqueChars = 0;
+//    options.Password.RequiredLength = 5;
+//    options.Password.RequireNonAlphanumeric = false;
+//});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
