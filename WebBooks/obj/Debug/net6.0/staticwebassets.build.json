@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DUGlj5zax3XaUcNAR+MBdMsY7Z6efck++b6C5rqEvi4=",
+  "Hash": "MeuvxsZFQN3ZpQmG3GKn7v25KrlGDfB54LrCy4MSKHU=",
   "Source": "WebBooks",
   "BasePath": "_content/WebBooks",
   "Mode": "Default",
@@ -39212,6 +39212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Users\\576d5931-34b1-4010-9d45-4812bef0c38a.jpeg"
+    },
+    {
+      "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\695b1a4d-f856-495b-802a-8fb8391018b9.jpeg",
+      "SourceId": "WebBooks",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\",
+      "BasePath": "_content/WebBooks",
+      "RelativePath": "Images/Users/695b1a4d-f856-495b-802a-8fb8391018b9.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Users\\695b1a4d-f856-495b-802a-8fb8391018b9.jpeg"
     },
     {
       "Identity": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Images\\Users\\87300962-6913-486c-a529-b90017bcf381.jpeg",

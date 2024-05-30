@@ -38,6 +38,14 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 //    options.Password.RequireNonAlphanumeric = false;
 //});
 // Add services to the container.
+
+
+// Set the path to redirect unauthenticated users to the custom login page at /Admin
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Admin";
+});
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 
@@ -56,6 +64,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 app.UseSession();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

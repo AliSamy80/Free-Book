@@ -2,6 +2,7 @@
 using Domin.ViewModel;
 using Infrastructure.Data;
 using Infrastructure.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebBooks.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class AccountsController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -24,7 +26,7 @@ namespace WebBooks.Areas.Admin.Controllers
             _context = context;
             _signInManager = signInManager;
         }
-
+        [Authorize(Roles ="Admin,User")]
         public IActionResult Roles()
         {
 
@@ -36,6 +38,7 @@ namespace WebBooks.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Roles(RolesViewModel model)
         {
             if(ModelState.IsValid)
@@ -94,6 +97,7 @@ namespace WebBooks.Areas.Admin.Controllers
             return View();
 
         }
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteRole(string Id)
         {
             var role = _roleManager.Roles.FirstOrDefault(x => x.Id == Id);
@@ -103,11 +107,7 @@ namespace WebBooks.Areas.Admin.Controllers
             }
             return RedirectToAction("Roles");
         }
-        public IActionResult Login()
-        {
-            return View();
-        }
-
+        [Authorize(Roles = "Admin,User")]
         public IActionResult Register()
         {
             var model = new RegisterViewModel
@@ -121,6 +121,7 @@ namespace WebBooks.Areas.Admin.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
           if (ModelState.IsValid)
@@ -218,6 +219,7 @@ namespace WebBooks.Areas.Admin.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin,User")] 
         public async Task<IActionResult> ChangePassword(RegisterViewModel model) 
         {
             //var user = await _userManager.FindByIdAsync(model.changePassword.Id);
@@ -256,7 +258,7 @@ namespace WebBooks.Areas.Admin.Controllers
             }
            
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteUser(string id)
         {
             var user = _userManager.Users.FirstOrDefault(x=>x.Id == id);
@@ -286,9 +288,16 @@ namespace WebBooks.Areas.Admin.Controllers
                 return RedirectToAction("register", "Accounts");
             return RedirectToAction("register", "Accounts");
         }
+
+        [AllowAnonymous]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginViewModel model) 
         {
             if (ModelState.IsValid)
@@ -301,6 +310,14 @@ namespace WebBooks.Areas.Admin.Controllers
             }
 
             return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Logout(LoginViewModel model)
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction(nameof(Login));
         }
     }
 }
