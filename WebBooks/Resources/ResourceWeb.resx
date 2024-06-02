@@ -120,6 +120,9 @@
   <data name="lbActiveUser" xml:space="preserve">
     <value>تفعيل المستخدم</value>
   </data>
+  <data name="lbAddNewRole" xml:space="preserve">
+    <value>اضف مجموعة جديــدة</value>
+  </data>
   <data name="LbBtnChangePassword" xml:space="preserve">
     <value>تغيير كلمة المرور</value>
   </data>
@@ -230,6 +233,9 @@
   </data>
   <data name="lbTitleDeletedOk" xml:space="preserve">
     <value>تم الحذف</value>
+  </data>
+  <data name="lbTitleEdit" xml:space="preserve">
+    <value>تعديل مجموعة المستخدم</value>
   </data>
   <data name="lbTitleMsgDelete" xml:space="preserve">
     <value>هل انت متـــأكد ؟</value>

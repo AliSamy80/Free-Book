@@ -11,5 +11,12 @@ namespace Domin.Entity
         public const string PathImageuser = "/Images/Users";
         public const string PathSaveImageuser = "Images/Users";
 
+        public const string MsgType = "msgType";
+        public const string Title = "title";
+        public const string Msg = "msg";
+
+        public const string Success = "success";
+        public const string Error = "error";
+
     }
 }

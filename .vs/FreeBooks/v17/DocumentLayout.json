@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "E:\\Core Projects\\New folder\\FreeBooks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\wwwroot\\modules\\roles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\wwwroot\\modules\\roles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,79 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Program.cs",
-              "RelativeDocumentMoniker": "WebBooks\\Program.cs",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Program.cs",
-              "RelativeToolTip": "WebBooks\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T12:11:13.144Z",
+              "DocumentIndex": 0,
+              "Title": "Roles.js",
+              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
+              "RelativeDocumentMoniker": "WebBooks\\wwwroot\\Modules\\Roles.js",
+              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
+              "RelativeToolTip": "WebBooks\\wwwroot\\Modules\\Roles.js",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-02T08:29:28.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Roles.cshtml",
+              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
+              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
+              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
+              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKYAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T11:38:23.498Z"
+              "WhenOpened": "2024-06-02T08:34:44.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layoutadmin.cshtml",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Shared\\_Layoutadmin.cshtml",
-              "ViewState": "AQIAAL8AAAAAAAAAAAAAANQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T11:36:35.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Register.cshtml",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Register.cshtml",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Register.cshtml",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Register.cshtml",
-              "ViewState": "AQIAAGYAAAAAAAAAAAAAAH8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T07:19:20.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Login.cshtml",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Login.cshtml",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Login.cshtml",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Login.cshtml",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAiwHAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-21T07:06:42.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
               "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
               "RelativeToolTip": "WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAkwGMAAAAkAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAUwFwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:27:29.484Z",
+              "WhenOpened": "2024-06-02T07:40:38.85Z",
               "EditorCaption": ""
             }
           ]

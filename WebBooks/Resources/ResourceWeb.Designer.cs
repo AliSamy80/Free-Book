@@ -70,6 +70,15 @@ namespace WebBooks.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to اضف مجموعة جديــدة.
+        /// </summary>
+        public static string lbAddNewRole {
+            get {
+                return ResourceManager.GetString("lbAddNewRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to تغيير كلمة المرور.
         /// </summary>
         public static string LbBtnChangePassword {
@@ -399,6 +408,15 @@ namespace WebBooks.Resources {
         public static string lbTitleDeletedOk {
             get {
                 return ResourceManager.GetString("lbTitleDeletedOk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to تعديل مجموعة المستخدم.
+        /// </summary>
+        public static string lbTitleEdit {
+            get {
+                return ResourceManager.GetString("lbTitleEdit", resourceCulture);
             }
         }
         

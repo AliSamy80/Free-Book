@@ -68,6 +68,7 @@
                                             <td>
                                                 <input type="button" class="btn btn-info btn-sm" onclick="Edit('@item.Id', '@item.Name')" value="@ResourceWeb.LbBtnEdit" data-bs-toggle="modal" data-bs-target="#exampleModal" />|
                                                 <input type="button" class="btn btn-danger btn-sm" onclick="Delete('@item.Id')" value="@ResourceWeb.LbBtnDelete" />
+
                                             </td>
                                         </tr>
                                         }
@@ -152,7 +153,28 @@
          }
          Context.Session.SetString("msgType", "");
      }
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="~/Modules/Roles.js"></script>
+    <script>
+        let lbTitleEdit = '@Html.Raw(ResourceWeb.lbTitleEdit)';
+        let LbBtnEdit = '@Html.Raw(ResourceWeb.LbBtnEdit)';
+        let lbAddNewRole = '@Html.Raw(ResourceWeb.lbAddNewRole)';
+        let LbBtnSave = '@Html.Raw(ResourceWeb.LbBtnSave)';
+
+        let lbTitleMsgDelete = '@Html.Raw(ResourceWeb.lbTitleMsgDelete)';
+        let lbTextMsgDelete = '@Html.Raw(ResourceWeb.lbTextMsgDelete)';
+        let lbconfirmButtonText = '@Html.Raw(ResourceWeb.lbconfirmButtonText)';
+        let lbcancelButtonText = '@Html.Raw(ResourceWeb.lbcancelButtonText)';
+        let lbTitleDeletedOk = '@Html.Raw(ResourceWeb.lbTitleDeletedOk)';
+        let lbMsgDeletedOkRole = '@Html.Raw(ResourceWeb.lbMsgDeletedOkRole)';
+        let lbSuccess = '@Html.Raw(ResourceWeb.lbSuccess)';
+
+
+
+
+
+
+
+    </script>
 }
 
