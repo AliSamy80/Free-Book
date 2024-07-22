@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XxbgD6sES6NYg6x+b5mh4GExgZWM9aSo1Q0eb9kyGoW4F4o+jpQWmG8LmGKkUq68iLryaJXzCDsCCGWRVlevkQ==",
+  "dgSpecHash": "3wjJdaN9/Jc=",
   "success": true,
-  "projectFilePath": "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj",
+  "projectFilePath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali.samy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.27\\microsoft.aspnetcore.cryptography.internal.6.0.27.nupkg.sha512",
     "C:\\Users\\ali.samy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.27\\microsoft.aspnetcore.cryptography.keyderivation.6.0.27.nupkg.sha512",

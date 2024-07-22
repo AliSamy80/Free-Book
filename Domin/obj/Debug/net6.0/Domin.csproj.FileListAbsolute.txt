@@ -13,3 +13,18 @@ E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.Resources.Res
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.GenerateResource.cache
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.AssemblyReference.cache
 E:\Core Projects\New folder\FreeBooks\Domin\obj\Debug\net6.0\Domin.sourcelink.json
+E:\Core Projects\FreeBooks\FreeBooks\Domin\bin\Debug\net6.0\Domin.deps.json
+E:\Core Projects\FreeBooks\FreeBooks\Domin\bin\Debug\net6.0\Domin.dll
+E:\Core Projects\FreeBooks\FreeBooks\Domin\bin\Debug\net6.0\Domin.pdb
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.AssemblyReference.cache
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.Resources.ResourceData.resources
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.GenerateResource.cache
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.GeneratedMSBuildEditorConfig.editorconfig
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.AssemblyInfoInputs.cache
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.AssemblyInfo.cs
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.csproj.CoreCompileInputs.cache
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.sourcelink.json
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.dll
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\refint\Domin.dll
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\Domin.pdb
+E:\Core Projects\FreeBooks\FreeBooks\Domin\obj\Debug\net6.0\ref\Domin.dll

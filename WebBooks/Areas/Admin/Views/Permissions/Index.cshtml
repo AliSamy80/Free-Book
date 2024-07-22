@@ -1,0 +1,93 @@
+﻿@model PermissionViewModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>@ResourceWeb.lbControlPermissions (@Model.RoleName)</h1>
+<br />
+<div class="card">
+    <div id="viewAll" class="card-body table-responsive">
+        <form asp-controller="permissions" method="post" asp-action="Update" class="d-inline">
+            <input asp-for="@Model.roleId" type="hidden" />
+            <table class="table table-striped" id="permissionTable">
+                <thead>
+                    <tr>
+                        <th>
+                            اسم الصلاحية
+                        </th>
+                        <th>
+                            العمليات
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Enum.GetValues(typeof(Helper.PermissionModuleName)))
+                    {
+                        <tr>
+
+                            @switch(item.ToString())
+                            {
+                                case "Home":
+                                <td>لوحة التحكم</td>
+                                    break;
+                                case "Accounts":
+                                    <td>حسابات المستخدمين</td>
+                                    break;
+                                case "Roles":
+                                    <td>مجموعة المستخدمين</td>
+                                    break;
+                                case "Registers":
+                                    <td>المستخدمين</td>
+                                    break;
+                                case "Categories":
+                                    <td>الفئات</td>
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                            @for (int i = 0; i < Model.RoleClaims.Count(); i++)
+                            {
+                                if (Model.RoleClaims[i].Value.Split('.')[1] == item.ToString())
+                                {
+                                    <td>
+                                        <input asp-for="@Model.RoleClaims[i].Value" type="hidden" />
+                                        @Model.RoleClaims[i].Value.Split('.')[2]
+                                    </td>
+
+                                    <td>
+                                        <div class="form-check m-1">
+                                            <input asp-for="@Model.RoleClaims[i].Selected" class="form-check-input" />
+                                        </div>
+                                    </td>
+                                }
+                            }
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+           @*  <div class="col-sm-12" style="padding: 20px 20px 0px 0px">
+                <button type="submit" id="save" class="btn btn-success">
+                    <i class="fa fa-check"></i>
+                    Save
+                </button>
+            </div>
+            *@
+           
+
+            <div class="d-flex align-items-center" style="padding: 20px 20px 0px 0px">
+                <button type="submit" id="save" class="btn btn-success me-2" style="margin-left: 5px;">
+                    <i class="fa fa-check"></i>
+                    Save
+                </button>
+                <a asp-controller="Accounts" asp-action="Roles" class="btn btn-danger">
+                    <i class="fa fa-check"></i>
+                    Back
+                </a>
+            </div>
+
+        </form>
+    </div>
+</div>

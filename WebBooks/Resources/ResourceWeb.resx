@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbActionName" xml:space="preserve">
+    <value>اسم العملية</value>
+  </data>
   <data name="lbActiveUser" xml:space="preserve">
     <value>تفعيل المستخدم</value>
+  </data>
+  <data name="lbAddNewCategory" xml:space="preserve">
+    <value>اضف مجموعة فئات جديدة</value>
   </data>
   <data name="lbAddNewRole" xml:space="preserve">
     <value>اضف مجموعة جديــدة</value>
@@ -132,8 +138,14 @@
   <data name="LbBtnEdit" xml:space="preserve">
     <value>تعديل</value>
   </data>
+  <data name="lbbtnPermissions" xml:space="preserve">
+    <value>الصلاحيات</value>
+  </data>
   <data name="LbBtnSave" xml:space="preserve">
     <value>حفظ</value>
+  </data>
+  <data name="lbBtnSaveNewCategory" xml:space="preserve">
+    <value>اضف فئة جديدة</value>
   </data>
   <data name="lbBtnSaveNewRole" xml:space="preserve">
     <value>اضف مجموعة جديــدة</value>
@@ -144,11 +156,23 @@
   <data name="lbcancelButtonText" xml:space="preserve">
     <value>cancel !</value>
   </data>
+  <data name="lbCategories" xml:space="preserve">
+    <value>مجموعة الفئات</value>
+  </data>
   <data name="lbComparePassword" xml:space="preserve">
     <value>أعد إدخال كلمة المرور</value>
   </data>
   <data name="lbconfirmButtonText" xml:space="preserve">
     <value>yes, delete it !"</value>
+  </data>
+  <data name="lbControlPermissions" xml:space="preserve">
+    <value>إدارة الصلاحيات لـ</value>
+  </data>
+  <data name="lbDate" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="lbDiscriptionCategory" xml:space="preserve">
+    <value>وصف الفئة</value>
   </data>
   <data name="lbEmailUser" xml:space="preserve">
     <value>البريد الإلكترونى</value>
@@ -162,20 +186,44 @@
   <data name="lbImageUser" xml:space="preserve">
     <value>صورة المستخدم</value>
   </data>
+  <data name="lbLogCategories" xml:space="preserve">
+    <value>عمليات الفئات</value>
+  </data>
   <data name="LbManageBook" xml:space="preserve">
     <value>إدارة الكــتب </value>
+  </data>
+  <data name="lbMsgDeletedOkCategory" xml:space="preserve">
+    <value>تم حذف مجموعة الفئات</value>
   </data>
   <data name="lbMsgDeletedOkRole" xml:space="preserve">
     <value>تم حذف مجموعة المستخـــدم !</value>
   </data>
+  <data name="lbMsgDuplicateNameCategory" xml:space="preserve">
+    <value>لا يستطيع الحفظ لأن اسم الفئة موجود بالفعل</value>
+  </data>
   <data name="lbMsgErrorLogin" xml:space="preserve">
     <value> البريد الإلكترونى أو كلمة المرور خطأ</value>
+  </data>
+  <data name="lbMsgNotSavedCategory" xml:space="preserve">
+    <value>لم يتم حفظ الفئة </value>
   </data>
   <data name="lbMsgNotSavedChangePassword" xml:space="preserve">
     <value>لم يتم تغيير كلمة المرور</value>
   </data>
+  <data name="lbMsgNotUpdatedCategory" xml:space="preserve">
+    <value>لم يتم تعديل الفئة</value>
+  </data>
+  <data name="lbMsgSaveCategory" xml:space="preserve">
+    <value>تم حفظ فئة جديدة</value>
+  </data>
   <data name="lbMsgSavedChangePassword" xml:space="preserve">
     <value>تم تغيير كلمة المرور بنجــاح</value>
+  </data>
+  <data name="lbMsgUpdateCategory" xml:space="preserve">
+    <value>تم تعديل الفئة بنجاح</value>
+  </data>
+  <data name="lbNameCategory" xml:space="preserve">
+    <value>اسم الفئة</value>
   </data>
   <data name="LbNameRole" xml:space="preserve">
     <value>اســـم المجمــــوعة</value>
@@ -207,8 +255,17 @@
   <data name="lbNotUpdateMsgUserRole" xml:space="preserve">
     <value>لـم يتم تعديل  مجموعة المستخــدم</value>
   </data>
+  <data name="lbOk" xml:space="preserve">
+    <value>حسناً</value>
+  </data>
   <data name="lbPassword" xml:space="preserve">
     <value>كلمة المرور</value>
+  </data>
+  <data name="lbRegisters" xml:space="preserve">
+    <value>المستخدمين</value>
+  </data>
+  <data name="lbRoles" xml:space="preserve">
+    <value>مجموعة المستخدمين</value>
   </data>
   <data name="lbRoleUser" xml:space="preserve">
     <value>مجموعة المستخدميــــن</value>
@@ -237,6 +294,9 @@
   <data name="lbTitleEdit" xml:space="preserve">
     <value>تعديل مجموعة المستخدم</value>
   </data>
+  <data name="lbTitleEditCategory" xml:space="preserve">
+    <value>تعديل مجموعة الفئات</value>
+  </data>
   <data name="lbTitleMsgDelete" xml:space="preserve">
     <value>هل انت متـــأكد ؟</value>
   </data>
@@ -251,5 +311,8 @@
   </data>
   <data name="lbUser" xml:space="preserve">
     <value>المستخدميين الحاليين</value>
+  </data>
+  <data name="lbUserName" xml:space="preserve">
+    <value>المستخدم</value>
   </data>
 </root>

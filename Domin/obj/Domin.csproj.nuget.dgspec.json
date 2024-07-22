@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj": {}
+    "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj": {}
   },
   "projects": {
-    "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj": {
+    "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj",
+        "projectUniqueName": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj",
         "projectName": "Domin",
-        "projectPath": "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj",
+        "projectPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj",
         "packagesPath": "C:\\Users\\ali.samy\\.nuget\\packages\\",
-        "outputPath": "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\obj\\",
+        "outputPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

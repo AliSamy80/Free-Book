@@ -13,11 +13,16 @@ namespace WebBooks.Areas.Admin.Controllers
     [Authorize]
     public class AccountsController : Controller
     {
+        #region Declaration
+
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly FreeBookDbContext _context;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        #endregion
 
+
+        #region Constructor
         public AccountsController(RoleManager<IdentityRole> roleManager,
             UserManager<ApplicationUser> userManager , FreeBookDbContext context , SignInManager<ApplicationUser> signInManager)
         {
@@ -26,6 +31,10 @@ namespace WebBooks.Areas.Admin.Controllers
             _context = context;
             _signInManager = signInManager;
         }
+        #endregion
+
+
+        #region Method
         [Authorize(Roles ="Admin,User")]
         public IActionResult Roles()
         {
@@ -43,30 +52,30 @@ namespace WebBooks.Areas.Admin.Controllers
         {
             if(ModelState.IsValid)
             {
-                var role = new IdentityRole
-                {
-                    Id = model.NewRole.Id,
-                    Name = model.NewRole.Name,
-                };
+                //var role = new IdentityRole
+                //{
+                //    Id = model.NewRole.Id,
+                //    Name = model.NewRole.Name,
+                //};
 
                 // Create
 
-                if(role.Id == null)
+                if(model.NewRole.Id == null)
                 {
-                    role.Id = Guid.NewGuid().ToString();
-                    var result = await _roleManager.CreateAsync(role);
+                    //role.Id = Guid.NewGuid().ToString();
+                    var result = await _roleManager.CreateAsync(new IdentityRole(model.NewRole.Name));
                     if(result.Succeeded) // Succeeded
                         SessionMsg(Helper.Success, Resources.ResourceWeb.lbSave, Resources.ResourceWeb.lbSaveMsgRole);
                     else //Not Succeeded
                         SessionMsg(Helper.Error, Resources.ResourceWeb.lbNotSaved, Resources.ResourceWeb.lbNotSavedMsgRole);
                 }
-
+                 
                 //Update
 
 
                 else
                 {
-                    var RoleUpdate = await _roleManager.FindByIdAsync(role.Id);
+                    var RoleUpdate = await _roleManager.FindByIdAsync(model.NewRole.Id);
                     RoleUpdate.Id = model.NewRole.Id;
                     RoleUpdate.Name = model.NewRole.Name;
                     var Result = await _roleManager.UpdateAsync(RoleUpdate);
@@ -92,11 +101,11 @@ namespace WebBooks.Areas.Admin.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteRole(string Id)
         {
-            var role = _roleManager.Roles.FirstOrDefault(x => x.Id == Id);
+            var role = await _roleManager.FindByIdAsync(Id);
             if (role == null)
             {
                 // Log or handle case where role is not found
-                return NotFound();
+                return NotFound("Role not found.");
             }
 
             var result = await _roleManager.DeleteAsync(role);
@@ -298,5 +307,6 @@ namespace WebBooks.Areas.Admin.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction(nameof(Login));
         }
+        #endregion
     }
 }

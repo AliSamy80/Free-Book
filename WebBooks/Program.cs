@@ -2,8 +2,10 @@ using Infrastructure.Data;
 using Domin.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.CodeAnalysis;
-using Microsoft.Extensions.Options;
+using Domin.Entity;
+using Infrastructure.IReprository;
+using Infrastructure.IReprository.ServicesRepository;
+using Infrastructure.Seeds;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -37,8 +39,14 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 //    options.Password.RequiredLength = 5;
 //    options.Password.RequireNonAlphanumeric = false;
 //});
+
+
 // Add services to the container.
 
+
+builder.Services.AddScoped<IServicesReprository<Category>, ServicesCategory>();
+
+builder.Services.AddScoped<IServicesReprositoryLog<LogCategory>, ServicesLogCategory>();
 
 // Set the path to redirect unauthenticated users to the custom login page at /Admin
 builder.Services.ConfigureApplicationCookie(options =>
@@ -50,6 +58,28 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 
 var app = builder.Build();
+
+
+// Seed roles and users
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+        var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+
+        await DefaultRole.SeedAsync(roleManager);
+        await DefaultUser.SeedSuperAdminAsync(userManager, roleManager);
+        await DefaultUser.SeedBasicUserAsync(userManager, roleManager);
+    }
+    catch(Exception)
+    {
+        throw;
+    }  
+}
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

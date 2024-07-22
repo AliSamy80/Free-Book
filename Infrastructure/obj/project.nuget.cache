@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0FTiahf7QmwqdR6GTavmBTNpYlYN/wrCp6qrBcdCpYa+NXh57TWjP37WtDhaGEqwVjG8I6yKX5iQWDsanGjf7g==",
+  "dgSpecHash": "1uyet3mDGAc=",
   "success": true,
-  "projectFilePath": "E:\\Core Projects\\New folder\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ali.samy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ali.samy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.27\\microsoft.aspnetcore.cryptography.internal.6.0.27.nupkg.sha512",

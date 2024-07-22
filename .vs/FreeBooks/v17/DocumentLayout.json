@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Core Projects\\New folder\\FreeBooks\\",
+  "WorkspaceRootPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\wwwroot\\modules\\roles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\wwwroot\\modules\\roles.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\freebooks\\freebooks\\webbooks\\areas\\admin\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\accounts\\roles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\freebooks\\freebooks\\webbooks\\areas\\admin\\views\\permissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\views\\permissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|e:\\core projects\\new folder\\freebooks\\webbooks\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C44CDB76-6474-4AAB-AC62-AA9AD9B03C7C}|WebBooks\\WebBooks.csproj|solutionrelative:webbooks\\areas\\admin\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|e:\\core projects\\freebooks\\freebooks\\infrastructure\\viewmodel\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\viewmodel\\permissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|e:\\core projects\\freebooks\\freebooks\\infrastructure\\seeds\\defaultuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seeds\\defaultuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|e:\\core projects\\freebooks\\freebooks\\infrastructure\\seeds\\defaultrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B007AFEA-F1C0-4DEA-843F-890B8071B197}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\seeds\\defaultrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F1A1D7-C6D7-4612-94A9-19B222F2F3DA}|Domin\\Domin.csproj|e:\\core projects\\freebooks\\freebooks\\domin\\constants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F1A1D7-C6D7-4612-94A9-19B222F2F3DA}|Domin\\Domin.csproj|solutionrelative:domin\\constants\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68F1A1D7-C6D7-4612-94A9-19B222F2F3DA}|Domin\\Domin.csproj|e:\\core projects\\freebooks\\freebooks\\domin\\entity\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68F1A1D7-C6D7-4612-94A9-19B222F2F3DA}|Domin\\Domin.csproj|solutionrelative:domin\\entity\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,41 +47,87 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Roles.js",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
-              "RelativeDocumentMoniker": "WebBooks\\wwwroot\\Modules\\Roles.js",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\wwwroot\\Modules\\Roles.js",
-              "RelativeToolTip": "WebBooks\\wwwroot\\Modules\\Roles.js",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwCgAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-02T08:29:28.534Z",
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T09:25:05.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Roles.cshtml",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Accounts\\Roles.cshtml",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAAAKYAAABKAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\WebBooks\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAC8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T08:34:44.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T12:08:25.56Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
-              "ToolTip": "E:\\Core Projects\\New folder\\FreeBooks\\WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "WebBooks\\Areas\\Admin\\Controllers\\AccountsController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAUwFwAAAAzAAAA",
+              "Title": "PermissionViewModel.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\ViewModel\\PermissionViewModel.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ViewModel\\PermissionViewModel.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\ViewModel\\PermissionViewModel.cs",
+              "RelativeToolTip": "Infrastructure\\ViewModel\\PermissionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T07:40:38.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T10:43:02.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Constants\\Permissions.cs",
+              "RelativeDocumentMoniker": "Domin\\Constants\\Permissions.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Constants\\Permissions.cs",
+              "RelativeToolTip": "Domin\\Constants\\Permissions.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAxwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T08:28:18.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultUser.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Seeds\\DefaultUser.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Seeds\\DefaultUser.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Seeds\\DefaultUser.cs",
+              "RelativeToolTip": "Infrastructure\\Seeds\\DefaultUser.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwE0AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:39:00.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefaultRole.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Seeds\\DefaultRole.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Seeds\\DefaultRole.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Seeds\\DefaultRole.cs",
+              "RelativeToolTip": "Infrastructure\\Seeds\\DefaultRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:20:15.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Entity\\Helper.cs",
+              "RelativeDocumentMoniker": "Domin\\Entity\\Helper.cs",
+              "ToolTip": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Entity\\Helper.cs",
+              "RelativeToolTip": "Domin\\Entity\\Helper.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwDsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T08:31:41.033Z"
             }
           ]
         }

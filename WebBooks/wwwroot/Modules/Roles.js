@@ -50,6 +50,7 @@ function Delete(id) {
 }
 
 
+
 Edit = (id, name) => {
     document.getElementById("title").innerHTML = lbTitleEdit;
     document.getElementById("btnSave").value = LbBtnEdit;

@@ -2214,11 +2214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Core Projects\\New folder\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "E:\\Core Projects\\New folder\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\ali.samy\\.nuget\\packages\\",
-      "outputPath": "E:\\Core Projects\\New folder\\FreeBooks\\Infrastructure\\obj\\",
+      "outputPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2240,8 +2240,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj": {
-              "projectPath": "E:\\Core Projects\\New folder\\FreeBooks\\Domin\\Domin.csproj"
+            "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj": {
+              "projectPath": "E:\\Core Projects\\FreeBooks\\FreeBooks\\Domin\\Domin.csproj"
             }
           }
         }
@@ -2306,7 +2306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
